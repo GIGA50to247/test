@@ -10,12 +10,13 @@
 
 </head>
 <body>
+  <center>
 	<div class="display-1">Arenn Mendoza </div>
 
 <!-- Button trigger modal -->
-<center>
+
 <button type="button" id="log-in" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
-  Log-in!
+  Angkas Tara na!
 </button>
 </center>
 <!-- Modal -->
@@ -47,10 +48,19 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" id="www" data-dismiss="modal">Go</button>
+        <button type="button" class="btn btn-primary" id="www" onclick="alert('GRAB a CAB')">Go</button>
       </div>
     </div>
   </div>
 </div>
 </body>
 </html>
+	<!-- this is a comment for console
+	$('#exampleInputEmail1')
+	$('#exampleInputEmail1').val()
+	$('#exampleInputEmail1').val('arennmendoza@gmail.com')
+	localStorage.setItem('test_email',$('#exampleInputEmail1').val())
+	localStorage
+	localStorage.clear()
+	$('#exampleCheck1')[0].checked
+	-->
