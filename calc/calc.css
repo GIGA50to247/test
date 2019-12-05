@@ -1,0 +1,26 @@
+.calc_container {
+    position: absolute;
+    border: 3px dotted gray;
+    margin: 15px 5px 5px 20px;
+    height: 500px;
+    width: 200px;
+    auto-select:none;
+}
+.calc_button {
+    height: 50px;
+    width: 50px;
+    margin: 5px 5px 5px 5px;
+}
+.compute_button {
+    height: 50px;
+    width: 50px;
+    margin: 5px 5px 5px 5px;
+}
+.display input {
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    font-size: 20px;
+    width: 180px;
+    border: 1px solid black;
+}
